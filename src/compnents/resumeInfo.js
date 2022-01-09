@@ -16,7 +16,7 @@ const resumeInfo= {
           "className":"fa fa-github"
         }
       ],
-    "aboutme":"I am currently a pre-final year student at The LNM Institute of Information Technology and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
+    "aboutme":"Enter context here.",
     "address":"Dallas,Tx",
     "website":"",
     "education":[
@@ -66,13 +66,13 @@ const resumeInfo= {
     "portfolio":[
       {
         "name":"project1",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "description":"GifCast",
+        "imgurl":""
       },
       {
         "name":"project2",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/project.jpg"
+        "description":"password",
+        "imgurl":""
       },
       {
         "name":"project3",
@@ -81,8 +81,8 @@ const resumeInfo= {
       },
       {
         "name":"project4",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "description":"app",
+        "imgurl":""
       }
     ]
     
