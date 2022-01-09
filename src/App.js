@@ -10,7 +10,6 @@ import ResumeInfo from "./components/resumeInfo";
 import Footer from "./components/footer";
 
 
-
 // import Navbar from "./components/navbar";
 // import Projects from "./components/Projects";
 // import Skills from "./components/Skills";
@@ -30,7 +29,6 @@ export default function App() {
   );
 }
 
-export default App;
 
 
 
