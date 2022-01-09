@@ -1,4 +1,4 @@
-import React, {Comonent} from 'react';
+import React, {Component} from 'react';
 
 export default class About extends Component {
     render(){
@@ -31,7 +31,7 @@ export default class About extends Component {
                                   <span>{resumeInfo.name}</span>
                         <br></br>
                                      <span>
-                        {resumeData.address}
+                        {resumeInfo.address}
                        </span>
                        <br></br>
                        <span>{resumeInfo.website}</span>
