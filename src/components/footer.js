@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 export default class Footer extends Component {
   render() {
-    const resumeData = this.props.resumeInfo;
+    const resumeInfo = this.props.resumeInfo;
     return (
       <footer>
       <div className="row">
