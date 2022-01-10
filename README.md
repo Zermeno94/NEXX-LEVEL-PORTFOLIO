@@ -42,6 +42,8 @@ The application will be invoked by using the following command:
 * [https://www.freecodecamp.org/news/build-portfolio-website-react/](#https://www.freecodecamp.org/news/build-portfolio-website-react/)
 * [https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md](#https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
 * [https://react-bootstrap.github.io/](#https://react-bootstrap.github.io/)
+* [https://www.youtube.com/watch?v=Qk0y2Zwgam4](#https://www.youtube.com/watch?v=Qk0y2Zwgam4)
+* [https://www.npmjs.com/package/react-social-icons](#https://www.npmjs.com/package/react-social-icons)
 
 
 ## License 📍

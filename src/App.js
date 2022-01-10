@@ -1,7 +1,9 @@
 import React from "react";
+import 'bootstrap/dist/css/bootstrap.css'
 
 // Components 
 import Header from "./components/header";
+import Home from "./components/home";
 import About from "./components/about";
 import Contact from "./components/contact";
 import Portfolio from "./components/portfolio";
@@ -22,6 +24,7 @@ const App = ()  =>{
     <main className="text-gray-400 bg-gray-900 body-font">
      
       <Header />
+      <Home/>
       <About />
       {/* <Portfolio /> 
       <Resume />
