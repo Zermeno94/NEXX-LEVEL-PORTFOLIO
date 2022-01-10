@@ -9,7 +9,7 @@ const About = () => {
   
       <Container fluid='true' className='container'>
         
-          <h2>About me</h2>
+          <h1>About me</h1>
           <Image src={require('../images/selfie.jpg')} />
           <ul>
             <li> I enjoy creating thinks that live on the internet. My interest  in design started back in 2016 when I decided to started my pursuit of Architecture. Turns out creating designs online taught me a lot of how impactful web design can be.</li>

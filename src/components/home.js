@@ -8,7 +8,7 @@ const Home = () => {
     <>
       <Container>
         <h2>Miranda Zermeno</h2>
-          Full Stack Developer
+          <h2>Full Stack Developer</h2>
         
         
         </Container>

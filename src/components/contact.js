@@ -4,10 +4,7 @@ import { SocialIcon } from 'react-social-icons';
 import {
   Form,
   Container,
-  Button,
-  Breadcrumb,
-  Dropdown,
-  DropdownButton
+  Button
 } from 'react-bootstrap';
 import '../style/style.css';
 
@@ -28,20 +25,12 @@ class Contact extends React.Component {
     event.preventDefault();
   }
 
-  techCompanies = [
-    { label: 'Apple', value: 1 },
-    { label: 'Facebook', value: 2 },
-    { label: 'Netflix', value: 3 },
-    { label: 'Tesla', value: 4 },
-    { label: 'Amazon', value: 5 },
-    { label: 'Alphabet', value: 6 }
-  ];
 
   render() {
     return (
       <>
         <Container fluid='true' className='container'>
-          <h2>Contact</h2>
+          <h1>Contact</h1>
           <Form>
             <Form.Group controlId='formBasicName' style={{ width: '80%' }}>
               <Form.Label>Name</Form.Label>
@@ -51,7 +40,7 @@ class Contact extends React.Component {
             <Form.Group controlId='formBasicEmail' style={{ width: '80%' }}>
               <Form.Label>Email address</Form.Label>
               <Form.Control type='email' placeholder='Enter email' />
-              <Form.Text className='text-muted'>
+              <Form.Text className='text-black'>
                 We'll never share your email with anyone else.
               </Form.Text>
             </Form.Group>

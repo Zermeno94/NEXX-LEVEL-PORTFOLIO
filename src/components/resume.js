@@ -8,7 +8,7 @@ const Resume = () => {
   return (
     <>
       <Container fluid='true' className='container'>
-        <h2>Resume</h2>
+        <h1>Resume</h1>
         <Row>
           <Iframe
             url='https://drive.google.com/file/d/1kiMHz_495wYmKB00QJARgEJweeoXTR4R/view'
