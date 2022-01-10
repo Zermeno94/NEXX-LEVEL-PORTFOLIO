@@ -1,36 +1,51 @@
-import React, { Component } from 'react';
-export default class Porfolio extends Component {
-  render() {
-    let resumeInfo = this.props.resumeInfo;
-    return (
-      <section id="portfolio">
-      <div className="row">
-        <div className="twelve columns collapsed">
-          <h1>Check Out Some of My Works.</h1>
-          <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
-          {
-            resumeInfo.portfolio && resumeInfo.portfolio.map((item)=>{
-              return(
-                <div className="columns portfolio-item">
-                  <div className="item-wrap">
-                    <a href="#modal-01">
-                      <img src={`${item.imgurl}`} className="item-img"/>
-                      <div className="overlay">
-                        <div className="portfolio-item-meta">
-                          <h5>{item.name}</h5>
-                          <p>{item.description}</p>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              )
-            })
-          }
-          </div>
-        </div>
-      </div>
-  </section>
-        );
-  }
-}
+import React from 'react';
+import {  Carousel } from 'react-bootstrap';
+
+import '../style/style.css';
+
+const Portfolio = () => {
+  return (
+    <>
+    <h3>Projects</h3>
+    <Carousel>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src='../images/GifCast.gif'
+      alt="GifCast"
+    />
+    <Carousel.Caption>
+      <h3>GifCast</h3>
+      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src="../images/WorkDayScheduler.png"
+      alt="Work Day Scheduler"
+    />
+
+    <Carousel.Caption>
+      <h3>Work Day Scheduler</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src="../images/E-Book Shop.png"
+      alt="E-Book Shop"
+    />
+
+    <Carousel.Caption>
+      <h3>E-Book Shop</h3>
+      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+    </Carousel.Caption>
+  </Carousel.Item>
+</Carousel>
+    </>
+  );
+};
+
+export default Portfolio
