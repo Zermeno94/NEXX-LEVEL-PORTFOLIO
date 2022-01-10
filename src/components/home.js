@@ -1,5 +1,5 @@
 import React from 'react'
-import {  Breadcrumb, Container } from 'react-bootstrap'
+import { Container } from 'react-bootstrap'
 import { SocialIcon } from 'react-social-icons'
 import  '../style/style.css'
 
@@ -22,9 +22,6 @@ const Home = () => {
         <SocialIcon url='https://github.com/Zermeno94' target='_blank' />
       </Container>
 
-      <Breadcrumb>
-        <Breadcrumb.Item href='/'>Home</Breadcrumb.Item>
-      </Breadcrumb>
     </>
   )
 }

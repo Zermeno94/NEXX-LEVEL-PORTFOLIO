@@ -21,11 +21,7 @@ const About = () => {
          
         
       </Container>
-      <Breadcrumb className='crumb'>
-        <Breadcrumb.Item href='/'>Home</Breadcrumb.Item>
-        <Breadcrumb.Item href='/about'>About</Breadcrumb.Item>
-        <Breadcrumb.Item active>Who Am I?</Breadcrumb.Item>
-      </Breadcrumb>
+      
     </>
   )
 }
