@@ -1,5 +1,5 @@
 import React from 'react';
-import {  Carousel } from 'react-bootstrap';
+import {  Carousel ,Image} from 'react-bootstrap';
 
 import '../style/style.css';
 
@@ -9,22 +9,14 @@ const Portfolio = () => {
     <h3>Projects</h3>
     <Carousel>
   <Carousel.Item>
-    <img
-      className="d-block w-100"
-      src='../images/GifCast.gif'
-      alt="GifCast"
-    />
+  <Image src={require('../images/GifCast.gif')} />
     <Carousel.Caption>
       <h3>GifCast</h3>
       <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
-    <img
-      className="d-block w-100"
-      src="../images/WorkDayScheduler.png"
-      alt="Work Day Scheduler"
-    />
+  <Image src={require('../images/Work Day Scheduler.png')} />
 
     <Carousel.Caption>
       <h3>Work Day Scheduler</h3>
@@ -32,11 +24,7 @@ const Portfolio = () => {
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
-    <img
-      className="d-block w-100"
-      src="../images/E-Book Shop.png"
-      alt="E-Book Shop"
-    />
+  <Image src={require('../images/E-Book Shop.png')} />
 
     <Carousel.Caption>
       <h3>E-Book Shop</h3>
