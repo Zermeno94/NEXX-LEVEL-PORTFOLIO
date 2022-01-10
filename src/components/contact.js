@@ -28,7 +28,7 @@ class Contact extends React.Component {
 
   render() {
     return (
-      <>
+      <div>
         <Container fluid='true' className='container'>
           <h1>Contact</h1>
           <Form>
@@ -71,7 +71,7 @@ class Contact extends React.Component {
 
         </Container>
         
-      </>
+      </div>
     );
   }
 }

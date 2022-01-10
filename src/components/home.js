@@ -5,7 +5,7 @@ import  '../style/style.css'
 
 const Home = () => {
   return (
-    <>
+    <div>
       <Container>
         <h2>Miranda Zermeno</h2>
           <h2>Full Stack Developer</h2>
@@ -22,7 +22,7 @@ const Home = () => {
         <SocialIcon url='https://github.com/Zermeno94' target='_blank' />
       </Container>
 
-    </>
+    </div>
   )
 }
 

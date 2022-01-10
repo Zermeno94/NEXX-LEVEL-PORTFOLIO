@@ -1,11 +1,12 @@
 import React from 'react';
-import {  Carousel ,Image} from 'react-bootstrap';
+import {  Container,Carousel ,Image} from 'react-bootstrap';
 
 import '../style/style.css';
 
 const Portfolio = () => {
   return (
-    <>
+    <div>
+    <Container fluid='true' className='container'>
     <h3>Projects</h3>
     <Carousel>
   <Carousel.Item>
@@ -29,10 +30,11 @@ const Portfolio = () => {
     <Carousel.Caption>
       <h3>E-Book Shop</h3>
       <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-    </Carousel.Caption>
-  </Carousel.Item>
-</Carousel>
-    </>
+     </Carousel.Caption>
+     </Carousel.Item>
+     </Carousel>
+      </Container>
+    </div>
   );
 };
 

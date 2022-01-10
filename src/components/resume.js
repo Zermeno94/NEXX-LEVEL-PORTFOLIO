@@ -6,7 +6,7 @@ import Iframe from 'react-iframe';
 
 const Resume = () => {
   return (
-    <>
+    <div>
       <Container fluid='true' className='container'>
         <h1>Resume</h1>
         <Row>
@@ -29,7 +29,7 @@ const Resume = () => {
       </Container>
       
 
-    </>
+    </div>
   );
 };
 export default Resume;

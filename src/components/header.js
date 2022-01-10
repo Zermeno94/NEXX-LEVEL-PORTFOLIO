@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Header = () => {
    return (
-     <>
+     <div>
        <Navbar collapseOnSelect expand='lg' bg='light' variant='light'>
          <Navbar.Toggle aria-controls='responsive-navbar-nav' />
          <Navbar.Collapse id='responsive-navbar-nav'>
@@ -24,7 +24,7 @@ const Header = () => {
            </Nav>
          </Navbar.Collapse>
        </Navbar>
-     </>
+     </div>
 
    
    
