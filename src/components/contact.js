@@ -47,20 +47,7 @@ class Contact extends React.Component {
               <Form.Label>Name</Form.Label>
               <Form.Control type='name' placeholder='Enter name' />
             </Form.Group>
-            <Form.Group>
-              <input type='radio' value='MALE' name='gender' /> Male
-              <input type='radio' value='FEMALE' name='gender' /> Female
-            </Form.Group>
-            <DropdownButton
-              className='dropdownForm'
-              alignRight
-              title='Location'
-              id='dropdown-menu-align-right'
-              variant='info'
-            >
-              <Dropdown.Item eventKey='1'>In Finland</Dropdown.Item>
-              <Dropdown.Item eventKey='2'>Outside Finland</Dropdown.Item>
-            </DropdownButton>
+           
             <Form.Group controlId='formBasicEmail' style={{ width: '80%' }}>
               <Form.Label>Email address</Form.Label>
               <Form.Control type='email' placeholder='Enter email' />
@@ -68,13 +55,12 @@ class Contact extends React.Component {
                 We'll never share your email with anyone else.
               </Form.Text>
             </Form.Group>
+
             <Form.Group controlId='formBasicMessage' style={{ width: '80%' }}>
               <Form.Label>Message</Form.Label>
               <Form.Control type='message' placeholder='Message' />
             </Form.Group>
-            <Form.Group controlId='formBasicChecbox'>
-              <Form.Check type='checkbox' label='Check me out' />
-            </Form.Group>
+            
             <Form.Group>
               <Button variant='danger' type='refresh' className='formButtons'>
                 Refresh
@@ -83,21 +69,19 @@ class Contact extends React.Component {
                 Submit
               </Button>
             </Form.Group>
+
           </Form>
           <SocialIcon
-            url='http://linkedin.com/in/danielrstafford'
+            url='https://www.linkedin.com/in/miranda-zermeno-58b30121a/'
             target='_blank'
           />
           <SocialIcon
-            url='https://github.com/daniel-stafford'
+            url='https://github.com/Zermeno94'
             target='_blank'
           />
+
         </Container>
-        <Breadcrumb className='crumb'>
-          <Breadcrumb.Item href='/'>Home</Breadcrumb.Item>
-          <Breadcrumb.Item href='/about'>About</Breadcrumb.Item>
-          <Breadcrumb.Item active>About me</Breadcrumb.Item>
-        </Breadcrumb>
+        
       </>
     );
   }
