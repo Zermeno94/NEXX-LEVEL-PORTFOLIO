@@ -10,6 +10,8 @@ import ResumeInfo from "./components/resumeInfo";
 import Footer from "./components/footer";
 
 
+import './App.css';
+
 // import Navbar from "./components/navbar";
 // import Projects from "./components/Projects";
 // import Skills from "./components/Skills";
@@ -21,11 +23,11 @@ const App = ()  =>{
      
       <Header />
       <About />
-      <Portfolio /> 
+      {/* <Portfolio /> 
       <Resume />
       <ResumeInfo/>
       <Contact />
-      <Footer/>
+      <Footer/> */}
     </main>
   );
 }

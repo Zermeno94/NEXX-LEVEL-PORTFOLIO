@@ -1,90 +1,44 @@
-import React from "react";
+import React from 'react'
+import { Breadcrumb, Container,  Image } from 'react-bootstrap'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const About = () => {
-   return (
-      <section id="about">
-      <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
-        <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
-            Hi, I'm Reed.
-            <br className="hidden lg:inline-block" />I love to build amazing
-            apps.
-          </h1>
-          <p className="mb-8 leading-relaxed">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
-            laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
-            Laborum, voluptas natus?
-          </p>
-          <div className="flex justify-center">
-            <a
-              href="#contact"
-              className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
-              Work With Me
-            </a>
-            <a
-              href="#projects"
-              className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
-              See My Past Work
-            </a>
-          </div>
-        </div>
-        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-          <img
-            className="object-cover object-center rounded"
-            alt="hero"
-            src="./coding.svg"
-          />
-        </div>
-      </div>
-    </section>
-   );
+  return (
+    <>
+      <Container fluid='true' className='container'>
+        
+          <h2>Who am I?</h2>
+          <ul>
+            <li>I'm an American living and studying in Helsinki, Finland.</li>
+            <li>
+              Having lived in Finland for over five years, I consider sauna an
+              essential part of life.
+            </li>
+            <li>
+              I'm currently studying data science at Aalto University but have
+              been learning web development for the past few years - enjoy the
+              rapidly evolving and collaborative nature of the JavaScript
+              community.
+            </li>
+            <li>
+              When I'm not coding, you can find me playing Abba covers on the
+              piano, popping endos on my mountain bike, or trying to learn the
+              latest Finnish slang.
+            </li>
+          </ul>
+          <Image src={require('../images/selfie.jpg')} />
+        
+      </Container>
+      <Breadcrumb className='crumb'>
+        <Breadcrumb.Item href='/'>Home</Breadcrumb.Item>
+        <Breadcrumb.Item href='/about'>About</Breadcrumb.Item>
+        <Breadcrumb.Item active>Who Am I?</Breadcrumb.Item>
+      </Breadcrumb>
+    </>
+  )
 }
-// const  About =() => {
-//   return (
-//     <section id="about">
-//       <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
-//         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-//           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
-//             Hi, I'm Reed.
-//             <br className="hidden lg:inline-block" />I love to build amazing
-//             apps.
-//           </h1>
-//           <p className="mb-8 leading-relaxed">
-//             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
-//             laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
-//             Laborum, voluptas natus?
-//           </p>
-//           <div className="flex justify-center">
-//             <a
-//               href="#contact"
-//               className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
-//               Work With Me
-//             </a>
-//             <a
-//               href="#projects"
-//               className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
-//               See My Past Work
-//             </a>
-//           </div>
-//         </div>
-//         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-//           <img
-//             className="object-cover object-center rounded"
-//             alt="hero"
-//             src="./coding.svg"
-//           />
-//         </div>
-//       </div>
-//     </section>
-//   );
-// }
 
 export default About
-
-
-
-// import React, { Component } from 'react';
-// export default class About extends Component {
 //   render() {
 //     const  resumeInfo = this.props.resumeInfo;
 //     return (
