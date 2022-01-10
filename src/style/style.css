@@ -2,6 +2,7 @@
 
   body{
     font-family: 'Rampart One', cursive;
+    background-color: rgba(235, 181, 190, 0.995);
   }
   
   .breadcrumb {
@@ -21,7 +22,11 @@
   }
   
   img {
-    width: 20%;
+    width: 30%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
   }
   
   .jumbotron {
