@@ -5,7 +5,7 @@ import  '../style/style.css'
 
 const About = () => {
   return (
-    <div>
+    <>
   
       <Container fluid='true' className='container'>
         
@@ -22,7 +22,7 @@ const About = () => {
         
       </Container>
       
-    </div>
+    </>
   )
 }
 

@@ -5,7 +5,7 @@ import '../style/style.css';
 
 const Portfolio = () => {
   return (
-    <div>
+    <>
     <Container fluid='true' className='container'>
     <h3>Projects</h3>
     <Carousel>
@@ -34,7 +34,7 @@ const Portfolio = () => {
      </Carousel.Item>
      </Carousel>
       </Container>
-    </div>
+    </>
   );
 };
 
