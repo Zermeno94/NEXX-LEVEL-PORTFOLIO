@@ -1,6 +1,6 @@
-import React from 'react'
-import { Breadcrumb, Container,  Image } from 'react-bootstrap'
-import 'bootstrap/dist/css/bootstrap.min.css';
+import React from 'react';
+import { Breadcrumb, Container,  Image } from 'react-bootstrap';
+
 
 const About = () => {
   return (
