@@ -25,12 +25,12 @@ The application will be invoked by using the following command:
 
 ### Demo 🎥
 
-* [Link to Demo]()
+* [Link to Demo](https://watch.screencastify.com/v/41tjBZlyA9Wa9j69SA9e)
 
 ### GitHub & Deploy Link
 
 * [GitHub Link](https://github.com/Zermeno94/NEXX-LEVEL-PORTFOLIO)
-* [Heroku Link](https://git.heroku.com/nexx-level-portfolio.git)
+* [Heroku Link](https://nexx-level-portfolio.herokuapp.com/)
 
 ## Contributers
 * Miranda Zermeno
@@ -49,8 +49,7 @@ The application will be invoked by using the following command:
 * [https://blog.hubspot.com/website/center-text-in-css](#https://blog.hubspot.com/website/center-text-in-css)
 
 
-## License 📍
-MIT License
+## MIT License 📍
 
 Copyright (c) 2021 Miranda Zermeno
 
