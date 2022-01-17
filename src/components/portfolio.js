@@ -2,12 +2,13 @@ import React from 'react';
 import {  Container,Carousel ,Image} from 'react-bootstrap';
 
 import '../style/style.css';
+import Sectiontitle from './Sectiontitle';
 
 const Portfolio = () => {
   return (
     <>
     <Container fluid='true' className='container'>
-    <h3>Projects</h3>
+    <Sectiontitle title = 'Projects' />
     <Carousel>
   <Carousel.Item>
   <Image src={require('../images/GifCast.gif')} />
