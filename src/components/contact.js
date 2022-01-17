@@ -7,6 +7,7 @@ import {
   Button
 } from 'react-bootstrap';
 import '../style/style.css';
+import Sectiontitle from './Sectiontitle';
 
 class Contact extends React.Component {
   constructor(props) {
@@ -30,7 +31,7 @@ class Contact extends React.Component {
     return (
       <>
         <Container fluid='true' className='container'>
-          <h1>Contact</h1>
+        <Sectiontitle title = 'Contact' />
           <Form>
             <Form.Group controlId='formBasicName' style={{ width: '80%' }}>
               <Form.Label>Name</Form.Label>
