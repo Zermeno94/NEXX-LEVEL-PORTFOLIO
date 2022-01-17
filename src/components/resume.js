@@ -11,12 +11,12 @@ const Resume = () => {
         <h1>Resume</h1>
         <Row>
           <Iframe
-            url='https://drive.google.com/file/d/1kiMHz_495wYmKB00QJARgEJweeoXTR4R/view'
+            // url='https://drive.google.com/file/d/1kiMHz_495wYmKB00QJARgEJweeoXTR4R/view'
             title='My resume'
             allowFullScreen
             allowTransparency
-            src={require('https://drive.google.com/file/d/1kiMHz_495wYmKB00QJARgEJweeoXTR4R/view')}
-            style={{ height: '400px' }}
+            src={require('../docs/Miranda_Zermeno_Resume.pdf')}
+            style={{ height: '400px' , width:'400px'}}
           />
         </Row>
         <Row>
