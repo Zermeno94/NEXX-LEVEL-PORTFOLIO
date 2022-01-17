@@ -21,7 +21,8 @@ const Portfolio = () => {
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
-            <Image src={require('../images/Work Day Scheduler.png')} />
+
+            <a href="https://github.com/Zermeno94/WERK-OUT-TRACKER"target="_blank" rel="noopener noreferrer"><Image src={require('../images/Work Day Scheduler.png')} /></a>
 
             <Carousel.Caption>
               <h3>Work Day Scheduler</h3>
@@ -29,7 +30,8 @@ const Portfolio = () => {
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
-            <Image src={require('../images/E-Book Shop.png')} href='#https://github.com/mjs-esfsc/SMU-Project-2' />
+            
+            <a href="https://github.com/mjs-esfsc/SMU-Project-2" target="_blank" rel="noopener noreferrer"><Image src={require('../images/E-Book Shop.png')} /></a>
 
             <Carousel.Caption>
               <h3>E-Book Shop</h3>
