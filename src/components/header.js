@@ -14,8 +14,12 @@ const Header = () => {
                <i className='material-icons md-18'>Welcome to my Portfolio!</i>
              </Nav.Link>
              <NavDropdown title='About' id='basic-nav-dropdown'>
-               <NavDropdown.Item href='#about'>About me</NavDropdown.Item>
-               <NavDropdown.Item href='#resume'>Resume</NavDropdown.Item>
+
+               <a href="#about"><NavDropdown.Item href='/about'>About me</NavDropdown.Item></a>
+               
+
+              <a href="#resume"><NavDropdown.Item href='/resume'>Resume</NavDropdown.Item></a>
+               
                {/* <NavDropdown.Item href='/skills'>Skills</NavDropdown.Item> */}
                
              </NavDropdown>
