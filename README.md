@@ -46,6 +46,7 @@ The application will be invoked by using the following command:
 * [https://www.npmjs.com/package/react-social-icons](#https://www.npmjs.com/package/react-social-icons)
 * [https://www.npmjs.com/package/react-iframe](#https://www.npmjs.com/package/react-iframe)
 * [https://css-tricks.com/perfect-full-page-background-image/](#https://css-tricks.com/perfect-full-page-background-image/)
+* [https://blog.hubspot.com/website/center-text-in-css](#https://blog.hubspot.com/website/center-text-in-css)
 
 
 ## License 📍
