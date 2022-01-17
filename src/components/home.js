@@ -8,8 +8,8 @@ const Home = () => {
     <>
     
       <Container>
-        <h2>Miranda Zermeno</h2>
-          <h2>Full Stack Developer</h2>
+        <h1>Miranda Zermeno</h1>
+          <h1>Full Stack Developer</h1>
       
         </Container>
         
