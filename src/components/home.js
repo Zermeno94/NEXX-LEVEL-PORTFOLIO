@@ -6,6 +6,7 @@ import  '../style/style.css'
 const Home = () => {
   return (
     <>
+    
       <Container>
         <h2>Miranda Zermeno</h2>
           <h2>Full Stack Developer</h2>
