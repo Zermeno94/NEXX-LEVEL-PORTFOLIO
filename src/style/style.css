@@ -17,9 +17,16 @@
   }
   
   h2{
-    color: white;
-
+    color: black;
+    margin-top: 5rem;;
+ 
   }
+
+  h1 {
+    margin-top: 5rem;
+  }
+
+
   img {
     width: 30%;
     display: block;
