@@ -2,7 +2,7 @@ import React from 'react';
 import {Container, Row} from 'react-bootstrap';
 import '../style/style.css';
 import Iframe from 'react-iframe';
-// import Docs from '../docs/Miranda_Zermeno_Resume';
+import pdf from '../docs/Miranda_Zermeno_Resume.pdf';
 
 const Resume = () => {
   return (
